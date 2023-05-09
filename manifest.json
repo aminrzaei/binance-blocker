@@ -1,0 +1,25 @@
+{
+  "name": "Binance Blocker",
+  "description": "Avoid entrance into Binance.com with unwanted IP adress.",
+  "version": "1.0",
+  "manifest_version": 2,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage", "webRequest", "webRequestBlocking", "*://*/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "/icons/bb16.png",
+      "32": "/icons/bb32.png",
+      "48": "/icons/bb48.png",
+      "128": "/icons/bb128.png"
+    }
+  },
+  "icons": {
+    "16": "/icons/bb16.png",
+    "32": "/icons/bb32.png",
+    "48": "/icons/bb48.png",
+    "128": "/icons/bb128.png"
+  }
+}

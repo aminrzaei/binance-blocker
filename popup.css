@@ -1,0 +1,149 @@
+a {
+  color: inherit;
+  text-decoration: none;
+}
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+}
+.header {
+  margin: 15px auto 0 auto;
+  font-size: 27px;
+}
+.header__img {
+  height: 19px;
+  position: relative;
+  top: 2px;
+  margin: 0 2px;
+}
+.main {
+  margin: 25px 0 5px 0;
+}
+.main__status {
+  font-size: 16px;
+  width: 100%;
+}
+.your-ip,
+.allowed-ip {
+  align-items: center;
+  position: relative;
+  display: flex;
+  margin: 0 25px;
+}
+.allowed-ip {
+  color: #086ce6;
+}
+
+.your-ip__line,
+.allowed-ip__line {
+  flex-grow: 1;
+  background-color: #d2d2d2;
+  height: 1px;
+  position: relative;
+  margin: 5px 15px 0 15px;
+}
+.allowed-ip__icon,
+.your-ip__icon {
+  margin-right: 5px;
+  position: relative;
+  height: 19px;
+}
+.allowed-ip__ip,
+.your-ip__ip {
+  margin-left: auto;
+}
+
+.main__setting {
+  margin: 30px 25px 0 25px;
+}
+.setting__title {
+  font-size: 12px;
+}
+.input-container {
+  display: flex;
+  position: relative;
+}
+.input {
+  flex-grow: 1;
+  border-radius: 4px;
+  border: 1px solid black;
+  height: 29px;
+  padding: 0 10px;
+}
+.input-change {
+  position: absolute;
+  background-color: #086ce6;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 13px;
+  padding: 4px 12px;
+  right: 3px;
+  top: 3px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.input-change:hover {
+  background-color: #559bf0;
+}
+.main__msg {
+  margin: 0 25px 12px 25px;
+  display: flex;
+  align-items: center;
+}
+.success-msg-icon {
+  height: 18px;
+  margin-right: 3px;
+}
+.success-msg-title {
+  color: #086ce6;
+}
+.error-msg-icon {
+  color: #fc5a5a;
+  margin-right: 3px;
+}
+.error-msg-title {
+  color: #fc5a5a;
+}
+.footer {
+  position: relative;
+  color: #fff;
+  background-color: #636e72;
+  padding: 6px 10px;
+  display: flex;
+  font-size: 16px;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+}
+.footer__options {
+  position: relative;
+  top: 3px;
+}
+.footer__status {
+  display: flex;
+  align-items: center;
+}
+.opened-status-icon {
+  height: 21px;
+  margin-right: 3px;
+}
+.blocked-status-icon {
+  height: 21px;
+  margin-right: 5px;
+}
+.bottom-link {
+  height: 18px;
+  margin: 0 2px;
+  transition: transform 0.3s;
+}
+.bottom-link:hover {
+  transform: scale(1.1);
+}

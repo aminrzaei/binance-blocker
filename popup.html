@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div class="header">
+      <span>Binance Bl</span
+      ><img src="./assets/x.svg" class="header__img" /><span>cker</span>
+    </div>
+    <div class="main">
+      <div class="main__status">
+        <div class="your-ip">
+          <img src="./assets/pin.svg" class="your-ip__icon" />
+          <p class="your-ip__title">Your IP:</p>
+          <span class="your-ip__line"></span>
+          <p class="your-ip__ip" id="currentIp">Connecting ...</p>
+        </div>
+        <div class="allowed-ip">
+          <img src="./assets/check.svg" class="allowed-ip__icon" />
+          <p class="allowed-ip__title">Allowed IP:</p>
+          <span class="allowed-ip__line"></span>
+          <p class="allowed-ip__ip" id="allowedIp"></p>
+        </div>
+      </div>
+      <div class="main__setting">
+        <p class="setting__title">Change Allowed IP:</p>
+        <div class="input-container">
+          <input type="text" class="input" id="ipInput" />
+          <div class="input-change" id="setIpBtn">Change</div>
+        </div>
+      </div>
+      <div class="main__msg" id="main__msg"></div>
+    </div>
+    <div class="footer" id="footer">
+      <div class="footer__status" id="footer__status">Connecting . . .</div>
+      <div class="footer__options">
+        <a href="#" title="More Information"
+          ><img src="./assets/info.svg" class="bottom-link"
+        /></a>
+        <a href="#" title="Need some help?"
+          ><img src="./assets/help.svg" class="bottom-link"
+        /></a>
+        <a href="#" title="Donate"
+          ><img src="./assets/dollar.svg" class="bottom-link"
+        /></a>
+      </div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
